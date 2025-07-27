@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Strategic Product Manager & Stakeholder Management Expert with MBA from IIM Amritsar. Driving Product Excellence Through Strategic Leadership.">
+    <meta property="og:title" content="Aditya Muralidhar Kodali - Strategic Product Manager">
+    <meta property="og:description" content="Strategic Product Manager & Stakeholder Management Expert driving product excellence through strategic leadership.">
+    <meta property="og:type" content="website">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- GSAP CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header" class="header">
+        <nav class="nav">
+            <div class="nav__logo">
+                <a href="#home" class="nav__logo-link">Aditya Kodali</a>
+            </div>
+            
+            <ul class="nav__list" id="nav-menu">
+                <li class="nav__item"><a href="#home" class="nav__link" title="Home">🏠</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link" title="About">👤</a></li>
+                <li class="nav__item"><a href="#products-overview" class="nav__link" title="Products">💼</a></li>
+                <li class="nav__item"><a href="#products" class="nav__link" title="Projects">🚀</a></li>                
+                <li class="nav__item"><a href="#experience" class="nav__link" title="Experience">🎓</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link" title="Skills">⚡</a></li>
+                <li class="nav__item"><a href="#testimonials" class="nav__link" title="Blog">📝</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link" title="Contact">📞</a></li>
+            </ul>
+            
+            <div class="nav__actions">
+                <button class="btn btn--secondary nav__contact-btn">Contact</button>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">🌙</button>
+                <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation">☰</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero__content">
+            <div class="hero__text">
+                <h1 class="hero__title">
+                    <span class="typewriter" id="typewriter-name"></span>
+                </h1>
+                <h2 class="hero__subtitle">
+                    <span class="typewriter" id="typewriter-title"></span>
+                </h2>
+                <p class="hero__tagline">Driving Product Excellence Through Strategic Leadership & Cross-Functional Collaboration</p>
+                <a href="https://www.linkedin.com/in/aditya-kodali/" target="_blank" class="btn btn--primary hero__btn">
+                    View LinkedIn Profile
+                </a>
+            </div>
+            
+            <div class="hero__stats">
+                <div class="stat-card">
+                    <span class="stat-card__number" data-target="2">0</span>
+                    <span class="stat-card__label">Products Led</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-card__number" data-target="100">0</span>+
+                    <span class="stat-card__label">Features Launched</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-card__number" data-target="30">0</span>%
+                    <span class="stat-card__label">Improvement Rate</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-card__number" data-target="90">0</span>%
+                    <span class="stat-card__label">Stakeholder Alignment</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about__content">
+                <div class="about__card">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="about__text">
+                        From mechanical engineering precision to strategic product leadership at IIM Amritsar and Decimal Point Analytics. I combine analytical rigor, stakeholder alignment, and digital marketing insights to deliver scalable products that drive measurable business impact.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Overview Section -->
+    <section id="products-overview" class="products-overview">
+        <div class="container">
+            <div class="products-overview__content">
+                <div class="scroll-progress" id="scroll-progress">
+                    <div class="scroll-progress__bar"></div>
+                </div>
+                <div class="products-overview__list">
+                    <h2 class="section-title">Experience</h2>
+                    <div class="product-list">
+                        <div class="product-item" data-product="Product Manager">
+                            <h3>Product Manager @ Decimal Point Analytics</h3>
+                            <p>Apr 2023 - Present</p>
+                                <ul class="resume-points">
+                                    <li>Led Data Management &amp; News Analytics platforms</li>
+                                    <li>Launched 100+ features (30% adoption uplift)</li>
+                                    <li>Cut onboarding cycle 50%</li>
+                                    <li>Coordinated 90% pipeline completion</li>
+                                    <li>Managed 350 leads → 70 demos, 15 POCs</li>
+                                    <li>Digital marketing uplift 40%, 500× presence</li>
+                                    <li>Authored 150+ user stories, 100+ wireframes</li>
+                                </ul>
+                        </div>
+                        <div class="product-item" data-product="Digital Marketing intern">
+                            <h3>Digital Marketing Intern @ GoldSikka</h3>
+                            <p>Apr 2022 - Jun 2022</p>
+                                <ul class="resume-points">
+                                    <li>5 social campaigns → 250% follower growth</li>
+                                    <li>SEO traffic +150%</li>
+                                    <li>100 downloads per campaign</li>
+                                </ul>
+                        </div>
+                        <div class="product-item" data-product="Zengages Learn and Grow">
+                            <h3>Zengages Learn & Grow</h3>
+                            <p>Feb 2022 - Apr 2022</p>
+                                <ul class="resume-points">
+                                    <li>Identified 200+ prospects</li>
+                                    <li>Analysed 5 competitors</li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Details Section -->
+    <section id="products" class="products-details">
+        <div class="container">
+            <h2 class="section-title">Product Deep Dive</h2>
+            <div class="products-grid">
+                <div class="product-card" data-aos="fade-up">
+                    <div class="product-card__header">
+                        <h3 class="product-card__title">Eazydata</h3>
+                        <div class="product-card__progress">
+                            <div class="progress-bar">
+                                <div class="progress-bar__fill" data-progress="85"></div>
+                            </div>
+                            <span class="progress-label">85% Complete</span>
+                        </div>
+                    </div>
+                    <p class="product-card__description">
+                        No-code pipelines: multi-dataset ingestion, modularization, joins, advanced transforms & validations, destination mapping. UI redesign eliminating developer dependencies. Workflow automation with N8N integrations.
+                    </p>
+                </div>
+
+                <div class="product-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-card__header">
+                        <h3 class="product-card__title">InfoPulse</h3>
+                        <div class="product-card__progress">
+                            <div class="progress-bar">
+                                <div class="progress-bar__fill" data-progress="90"></div>
+                            </div>
+                            <span class="progress-label">90% Complete</span>
+                        </div>
+                    </div>
+                    <p class="product-card__description">
+                        News aggregation: 85,000+ sources plus Google News integration. Analytics: summary, impact score, sentiment analysis; export via email, HTML, CSV. Client-centric enhancements and UI/UX overhaul.
+                    </p>
+                </div>
+
+                <div class="product-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="product-card__header">
+                        <h3 class="product-card__title">Doc AI</h3>
+                        <div class="product-card__progress">
+                            <div class="progress-bar">
+                                <div class="progress-bar__fill" data-progress="60"></div>
+                            </div>
+                            <span class="progress-label">60% Complete</span>
+                        </div>
+                    </div>
+                    <p class="product-card__description">
+                        MVP ideation for PDF/unstructured → structured document conversion. Core features: OCR, data extraction templates, schema mapping. Roadmap: integrate machine learning for automated field identification.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="experience" class="education">
+        <div class="container">
+            <h2 class="section-title">Education & Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item timeline-item--left">
+                    <div class="timeline-card">
+                        <h3 class="timeline-card__title">MBA</h3>
+                        <h4 class="timeline-card__subtitle">IIM Amritsar</h4>
+                        <span class="timeline-card__years">2021-2023</span>
+                    </div>
+                </div>
+                <div class="timeline-item timeline-item--right">
+                    <div class="timeline-card">
+                        <h3 class="timeline-card__title">B.Tech</h3>
+                        <h4 class="timeline-card__subtitle">SRKR Engineering College</h4>
+                        <span class="timeline-card__years">2017-2021    </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Tools Section as Capsules -->
+    <section id="skills" class="skills">
+    <div class="container">
+        <h2 class="section-title">Tools & Skills</h2>
+
+        <div class="skills-categories">
+        <div class="skill-category">
+            <h3>Tools</h3>
+            <div class="skill-capsules">
+            <span class="capsule">N8N</span>
+            <span class="capsule">ClickUp</span>
+            <span class="capsule">Figma</span>
+            <span class="capsule">Tableau</span>
+            <span class="capsule">Power BI</span>
+            <span class="capsule">Google Analytics</span>
+            <span class="capsule">MS Clarity</span>
+            <span class="capsule">Meta Ads</span>
+            <span class="capsule">Google Ads</span>
+            <span class="capsule">Perplexity</span>
+            <span class="capsule">Chat GPT</span>
+            <span class="capsule">MS Excel</span>
+            <span class="capsule">MS PowerPoint</span>
+            <span class="capsule">MS Word</span>
+            <span class="capsule">MS Climb Champ</span>
+            <span class="capsule">SQL</span>
+            <span class="capsule">Teams</span>
+            <span class="capsule">Clueso</span>
+            <span class="capsule">Dripify</span>
+            <span class="capsule">Sales Navigator</span>
+            <span class="capsule">Canva</span>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <h3>Skill</h3>
+            <div class="skill-capsules">
+            <span class="capsule">Agile Methodology</span>
+            <span class="capsule">Kanban</span>
+            <span class="capsule">Prioritization</span>
+            <span class="capsule">Roadmapping</span>
+            <span class="capsule">Problem Solving</span>
+            <span class="capsule">Communication</span>
+            <span class="capsule">Conflict Management</span>
+            <span class="capsule">Stakeholder Management</span>
+            <span class="capsule">Leadership</span>
+            <span class="capsule">UI/UX Designing</span>
+            <span class="capsule">BRD</span>
+            <span class="capsule">GAP Analysis</span>
+            <span class="capsule">Pre-sales</span>
+            <span class="capsule">Sales</span>
+            <span class="capsule">Marketing</span>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What People Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-card__inner">
+                        <div class="testimonial-card__front">
+                            <div class="testimonial-card__avatar">SP</div>
+                            <h3 class="testimonial-card__author">Sanika Pandit</h3>
+                            <p class="testimonial-card__role">Senior Colleague</p>
+                        </div>
+                        <div class="testimonial-card__back">
+                            <blockquote class="testimonial-card__quote">
+                                "Much like a bishop on a chess board, Aditya moves swiftly and decisively in any direction required. In just 1.5 years, he has transformed from a fresher into a polished professional, elevating our data integration product's user experience with his meticulous attention to detail and rapid delivery."
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-card__inner">
+                        <div class="testimonial-card__front">
+                            <div class="testimonial-card__avatar">VY</div>
+                            <h3 class="testimonial-card__author">Vaideek Y</h3>
+                            <p class="testimonial-card__role">Team Member</p>
+                        </div>
+                        <div class="testimonial-card__back">
+                            <blockquote class="testimonial-card__quote">
+                                "Aditya is Highly Spirited and Hardworking Individual. He plans and manages his work eloquently. His Contributions in group Projects and Assignments have been Significant."
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 class="section-title">Insights & Thoughts</h2>
+            <div class="blog-content">
+                <p class="blog-description">
+                    Sharing insights on product management, stakeholder alignment, and strategic leadership. 
+                    Connect with me on LinkedIn for the latest thoughts and industry perspectives.
+                </p>
+                <a href="https://www.linkedin.com/in/aditya-kodali/" target="_blank" class="btn btn--primary">
+                    Read on LinkedIn
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact__content">
+                <h2 class="section-title">Let's Connect</h2>
+                <div class="contact__info">
+                    <p class="contact__email">
+                        <strong>Email:</strong> aditya.kodali29@gmail.com
+                    </p>
+                    <p class="contact__phone">
+                        <strong>Phone:</strong> +91 93986 60494
+                    </p>
+                </div>
+                <a href="mailto:aditya.kodali@example.com" class="btn btn--primary contact__btn">
+                    Send Email
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
